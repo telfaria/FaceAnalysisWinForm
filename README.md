@@ -1,16 +1,16 @@
 # FaceAnalysisWinForm
 Cognitive Service API Sample
 
-##何をするものか
+## 何をするものか
 Cognitive Serivice APIの動作サンプルです
 
-##何が出来るのか
+## 何が出来るのか
 Emotion API と Vision APIをつかっての顔や風景判定
 
-##言語
+## 言語
 C# (.NET Framework 4.5.2 or higher)
 
-##必要なもの
+## 必要なもの
 * WebEye.Controls.WinForms.WebCameraControl
 * Microsoft.ProjectOxford.Emotion
 * Microsoft.ProjectOxford.Vision
@@ -25,6 +25,6 @@ Install-Package Microsoft.ProjectOxford.Vision
 別途用意してください。
 ref. https://azure.microsoft.com/ja-jp/services/cognitive-services/
 
-##作ったひと
+## 作ったひと
 @telfaria
 http://d.hatena.ne.jp/elfaria/
