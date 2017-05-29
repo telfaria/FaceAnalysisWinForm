@@ -2,15 +2,21 @@
 Cognitive Service API Sample
 
 ## 何をするものか
-Cognitive Serivice APIの動作サンプルです
+Cognitive Serivice APIの動作サンプルです。
 
 ## 何が出来るのか
 Emotion API と Vision APIをつかっての顔や風景判定
+
+## つかいかた
+起動するとWebカメラを見つけるとそれのソースが画面に映るので、試したいAPIを画面下のラジオボタンから選択して、右側のCapture!ボタンを押すと、Azure Cognitive Serviceにデータが飛んでそれが帰ってきます。
 
 ## 言語
 C# (.NET Framework 4.5.2 or higher)
 
 ## 必要なもの
+* Emotion API のAPIキー
+* Vision API のAPIキー
+* Webカメラ
 * WebEye.Controls.WinForms.WebCameraControl
 * Microsoft.ProjectOxford.Emotion
 * Microsoft.ProjectOxford.Vision
@@ -28,3 +34,6 @@ ref. https://azure.microsoft.com/ja-jp/services/cognitive-services/
 ## 作ったひと
 @telfaria
 http://d.hatena.ne.jp/elfaria/
+
+## ライセンス
+MIT License （とか言いながら本当にこれでいいのか不安である）
